@@ -1,0 +1,10 @@
+<div>
+    <p>register works!</p>
+    <form #registration="ngForm" (ngSubmit)="login(registration.value)" >
+        <input type="text" name="name" ngModel placeholder="Full Name"> <br><br>
+        <input type="text" name="username" ngModel placeholder="Username"> <br><br>
+        <input type="text" name="email" ngModel placeholder="Email"> <br><br>
+        <input type="text" name="password" ngModel placeholder="Password"> <br><br>
+        <input type="submit" value="Register">
+    </form>
+</div>

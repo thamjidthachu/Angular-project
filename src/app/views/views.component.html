@@ -1,0 +1,22 @@
+<div>
+    <h1>View Page</h1>
+
+    <table>
+        <tr>
+            <th>Index</th>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Username</th>
+            <th>Action</th>
+        </tr>
+        <tr *ngFor = "let i of views;index as index">
+            <td>{{index}}</td>
+            <td>{{i.id}}</td>
+            <td>{{i.name}}</td>
+            <td>{{i.email}}</td>
+            <td>{{i.username}}</td>
+        </tr>
+    </table>
+
+</div>
